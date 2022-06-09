@@ -10,9 +10,6 @@
 
 # bundler cache
 _site
-.sass-cache/
-.jekyll-metadata
-vendor
 Gemfile.lock
 
 ### OSX ###
@@ -22,9 +19,6 @@ Gemfile.lock
 
 # rubygem
 *.gem
-
-# Thumbnails
-._*
 
 # npm dependencies
 node_modules
