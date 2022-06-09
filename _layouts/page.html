@@ -5,8 +5,7 @@ layout: default
 <article class="post-container post-container--single" itemscope itemtype="http://schema.org/BlogPosting">
   <header class="post-header">
     <div class="post-meta">
-      <time datetime="{{page.date | date: date_to_xmlschema}}" itemprop="datePublished" class="post-meta__date date">{{page.date | date: "%F"}}</time>
-      <span class="post-meta__tags tags"></span>
+      <time datetime="{{page.date | date: date_to_xmlschema}}" itemprop="datePublished" class="post-meta__date date">{{page.date | date: "%F"}}</time> &#8226; <span class="post-meta__tags tags">{{page.tags | join:' '}}</span>
     </div>
     <h1 class="post-title">{{ page.title }}</h1>
   </header>
@@ -15,13 +14,3 @@ layout: default
     {{ content }}
   </section>
 </article>
-
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-NXW863KG3T"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-NXW863KG3T');
-</script>
