@@ -15,8 +15,8 @@
 
 .panel-title {
   margin: 0 0 5px 0;
-  font-size: 2.5em;
-  letter-spacing: 4px;
+  font-size: 2.0em;
+  letter-spacing: 2px;
   color: #FFF;
 }
 
@@ -45,8 +45,8 @@
 }
 
   .panel-cover--collapsed {
-    width: 30%;
-    max-width: 700px;
+    width: 20%;
+    max-width: 500px;
   }
 
   .panel-cover--overlay {
@@ -65,7 +65,7 @@
   }
 
   .panel-cover__description {
-    margin: 0 30px;
+    width: 100%;
   }
 
   .panel-cover__divider {
@@ -97,12 +97,12 @@
   }
 
   .panel-main__content {
-    max-width: 620px;
+    max-width: 720px;
     margin: 0 auto;
   }
 
   .panel-main__content--fixed {
-    width: 480px;
+    width: 580px;
     transition: width 1s;
     -webkit-transition: width 1s; /* Safari */
   }

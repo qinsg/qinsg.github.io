@@ -1,5 +1,7 @@
 $(document).ready(function() {
-
+  if (!location.hash) {
+    window.location.hash = "#blog"
+  }
   $('a.blog-button').click(function() {
     // If already in blog, return early without animate overlay panel again.
     if (location.hash && location.hash == "#blog") return;

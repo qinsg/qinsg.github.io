@@ -1,8 +1,8 @@
 # Basic
-title: 码农人士
-subtitle: 如果我今天的立场和昨天不一样，那可能是我今天进步了或堕落了……
+title: 码农人生
+# subtitle: 如果我今天的立场和昨天不一样，那可能是我今天进步了或堕落了……
 welcome_message: 欢迎光临本小站
-description: 欢迎来到我的个人小站
+# description: 欢迎来到我的个人小站
 
 # url: "http://vno.onevcat.com"
 
@@ -12,7 +12,7 @@ permalink: /:year/:month/:title/
 highlighter: rouge
 
 # supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
-cover_color: red
+cover_color: green
 
 # The blog button should not be removed.
 blog_button:
@@ -21,7 +21,11 @@ blog_button:
 
 # Navigation buttons in the front page.
 nav:
-    - {title: Projects, description: My Projects, url: 'http://project.onevcat.com'}
+    - {title: 首页, description: home, url: '/'}
+    - {title: 分类, description: archive, url: '/categories'}
+    - {title: 标签, description: archive, url: '/tags'}
+    - {title: 归档, description: archive, url: '/archives'}
+    - {title: 关于, description: archive, url: '/about'}
     # - {title: Another Button, description: A button, url: 'http://example.com'}
 
 # Pagination
@@ -36,11 +40,10 @@ comment:
     
 # Social
 social:
-    weibo: xx
-    github: xx
-    twitter: xx
-    gplus: xx
-    mail: xx@xx.com
+    #weibo: xx
+    github: qinsg
+    #twitter: xx
+    mail: shiguo.qin at gmail.com
 
 # Google Analytics
 ga:

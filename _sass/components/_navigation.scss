@@ -15,11 +15,14 @@ nav {
     display: inline-block;
     margin: 5px 1px 0 0;
     line-height: 1em;
+    
 
     a {
       display: block;
+      font-size: 1.2em;
       position: relative;
       @extend .btn;
+      border-style: none;
       border-color: #FFF;
       color: #FFF;
       opacity: .8;
@@ -31,7 +34,10 @@ nav {
       }
 
     }
+  }
 
+  .navigation--clomun {
+    width: 100%;
   }
 
   .navigation--social {
