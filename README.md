@@ -4,7 +4,6 @@
 ## 使用Chirpy构建的两种方式
 1. 通过Chirpy Starter进行构建。
 本站即采用此种方式。优点是简单，缺点是不可定制修改。
-Chirpy Starter [![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy)](https://rubygems.org/gems/jekyll-theme-chirpy) [![GitHub license](https://img.shields.io/github/license/cotes2020/chirpy-starter.svg?color=blue)][mit]
 
 2. 通过克隆jekyll-theme-chirpy进行构建。
 优点是可以定制，缺点是相对复杂。
@@ -26,6 +25,6 @@ jekyll server
 ```
 启动成功后，通过http://localhost:4000即可访问。
 
-## 部署到github **这一步非常重要。**
+## 部署到github 
 与其他主题略有差别的是chirpy会通过自动构建将静态内容创建到gh-pages分支里面，所以需要通过Settings->Pages->Source，将分支从main切换为gh-pages分支，保存。
-
+**这一步非常重要。**
