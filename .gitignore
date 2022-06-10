@@ -17,7 +17,7 @@ vendor
 .AppleDouble
 .LSOverride
 
-#.jekyll-cache
+.jekyll-cache
 
 # rubygem
 *.gem
