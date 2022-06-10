@@ -10,12 +10,14 @@
 
 # bundler cache
 _site
-Gemfile.lock
+vendor
 
 ### OSX ###
 .DS_Store
 .AppleDouble
 .LSOverride
+
+.jekyll-cache
 
 # rubygem
 *.gem

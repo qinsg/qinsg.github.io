@@ -23,10 +23,10 @@ timezone: Asia/Shanghai
 
 title: 码农人生                          # the main title
 
-tagline: 如果我今天的立场和昨天不一样，那可能是我今天进步了或堕落了……  # it will display as the sub-title
+tagline: 善战者，求之于势，不责于人。  # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  A minimal, responsive, and powerful Jekyll theme for presenting professional writing.
+  码农人生的个人网站
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://qinsg.github.io'
@@ -73,7 +73,7 @@ google_analytics:
 #     light  - Use the light color scheme
 #     dark   - Use the dark color scheme
 #
-theme_mode:   # [light|dark]
+theme_mode: light  # [light|dark]
 
 # The CDN endpoint for images.
 # Notice that once it is assigned, the CDN url
