@@ -13,3 +13,8 @@ order: 4
 ## 我的雪球:
 
 [码农二十年](https://xueqiu.com/u/6183701039)
+
+## 我的另一个小站:
+
+[读书笔记](https://qinsg.joybrainx.com)  
+这个小站等有时间了慢慢把内容迁过来。
